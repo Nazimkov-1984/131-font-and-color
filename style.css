@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Mykola';
+    src: url(./PressStart2P-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 100vh;
+    background: url('./img/main-background.jpg') no-repeat;
+    background-position: center -300px;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Mykola', cursive;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* колір в форматі HEX */
+    color: #c32222;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.main_subtitle {
+    font-weight: 100;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* за допомогою слів  */
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.pictures_row {
+    text-align: center;
+}
+
+.pictures_row img {
+    margin-right: 40px;
+    /* колір в форматі RGB red green blue 0-255 */
+    color: rgb(0, 0, 0);
+    /* колір в форматі RGBa red green blue 0-255 alfa канал :0-1 */
+    color: RGBa(0, 0, 0, );
+}
